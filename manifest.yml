@@ -1,0 +1,4 @@
+applications:
+- name: simple-chat
+  random-route: true
+  memory: 128M
