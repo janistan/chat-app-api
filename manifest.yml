@@ -1,4 +1,4 @@
 applications:
-- name: simple-chat
+- name: simple-chatbot-api
   random-route: true
   memory: 128M

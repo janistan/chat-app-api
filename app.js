@@ -8,7 +8,7 @@ const watson = require('./routes/watson');
 var cors = require('cors')
 
 var corsOptions = {
-  origin: 'https://chat-front.au-syd.mybluemix.net',
+  origin: 'https://simple-chat-frontend-<your-name>.au-syd.mybluemix.net',
 }
 
 app.use(cors(corsOptions));
