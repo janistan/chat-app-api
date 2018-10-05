@@ -16,7 +16,7 @@ exports.sendConversation = (req, res, next) => {
             input: {
                 text: req.body.text
             },
-            workspace_id: "91abcbbd-1d4a-4336-949c-30f56c67dd21",
+            workspace_id: "your-workspace-id",
             context: req.body.context
         })
         .then((response) => {
